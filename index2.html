@@ -1,0 +1,643 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<link rel="stylesheet" href="jquery-ui.min.css">
+	<script src="external/jquery/jquery.js"></script>
+	<script src="jquery-ui.min.js"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+	    <script src="snowstorm.js"></script>
+
+	<title>Game of Series</title>
+	<link rel="icon" href="icons/axe.png">
+	<link rel="stylesheet" href="style2.css">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed" rel="stylesheet">
+	<script>
+		// When the user clicks on <div>, open the popup
+		function myFunction() {
+			var menu = document.getElementById("myMenu");
+			menu.classList.toggle("show");
+		}
+
+	</script>
+
+</head>
+
+<body>
+
+	<img class="orn1" src="ornament.svg" alt="a">
+	<img class="orn2" src="ornament.svg" alt="a">
+	<img class="orn3" src="ornament.svg" alt="a">
+	<img class="orn4" src="ornament.svg" alt="a">
+
+	<div class="row arrows">
+		<div class="col-md-1">
+			<a class="prev" onclick="plusSlides(-1)">&#10094;</a></div>
+		<div class="col-md-10"></div>
+		<div class="col-md-1">
+			<a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+	</div>
+
+	<div class="slideshow-container">
+		<div class="mySlides container">
+			<div class="row">
+				<div class="logo center-block">
+					<img src="logo.png" class="img-responsive">
+					<h2>Projeto de Multimédia, 2017</h2>
+					<p> Para o nosso projeto de Multimédia decidimos fazer um website sobre algo que nós gostássemos. Concluímos que iríamos fazer algo sobre a série Game of Thrones e assim o fizemos. Para os fãs e já entendedores da história este será um jogo com o objetivo de matar todos os personagens de acordo com a ordem da série. Antes de cada personagem aparecer há uma breve explicação para o jogador se relembrar da forma como o personagem morreu daí havendo uma certa ajuda. Para navegar no website tem à sua disposição setas e bolinhas que possibilitam avançar no jogo. Bom jogo!
+					</p>
+				</div>
+
+
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo I</h2>
+
+			</div>
+			<div class="row">
+				<em>Viserys Targaryen</em>
+				<p>
+					Viserys é o irmão mais novo de Rhaegar, irmão mais velho de Daenerys Targaryen, e tio de Jon Snow. Viserys e Daenerys são os únicos sobreviventes da exilada Casa Targaryen após a Rebelião de Robert contra o seu pai Aerys II Targaryen, o Rei Louco.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+
+				<h2>Viserys Targaryen</h2>
+
+			</div>
+			<div class="row">
+
+				<div class="col-md-2 weapons" id="img-1">
+					<img class="button-choise" src="icons/gold-ingot.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-2">
+					<img class="button-choise" src="icons/bow-and-arrow.png" alt="a">
+				</div>
+
+				<div class="viserys col-md-4">
+					<img class=" center-block droppable img-responsive" id="man-alter1" src="personagens/metalcara.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-3">
+					<img class="button-choise" src="icons/mace.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-4">
+					<img class="button-choise" src="icons/sword.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo II</h2>
+
+			</div>
+			<div class="row">
+				<em>Eddard Stark</em>
+				<p>
+					Eddard Stark, também conhecido pelos seus amigos e família como Ned, permaneceu na sua casa,em Winterfell, que governa o Norte em nome do rei Robert. Após a morte de Jon Arryn, que tinha servido como Mão do Rei para o Trono de Ferro, Robert oferece a Eddard essa posição e ele viaja para a capital com as suas duas filhas para ajudar no governo dos Sete Reinos. Após a morte do rei Robert durante uma caçada, Eddard tentou prender Cersei e os seus filhos e pôr no trono o mais novo de Robert, Stannis Baratheon como o herdeiro legítimo. No entanto, a traição de Petyr Baelish resultou na prisão de Eddard por traição. A fim de evitar uma nova guerra e garantir a segurança de suas filhas Sansa e Arya, Eddard confessou a traição, mas Joffrey, o 'filho' de Robert e o novo rei, renegou uma promessa de misericórdia e ordenou a sua execução.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>Eddard Stark</h2>
+			<div class=" row">
+				<div class="col-md-2 weapons" id="img-5">
+					<img class="button-choice" src="icons/mace.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-6">
+					<img class="button-choice" src="icons/guillotine.png" alt="a">
+				</div>
+
+				<div class="col-md-4 ned">
+					<img class="center-block droppable" id="man-alter2" src="personagens/eddard.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-7">
+					<img class="button-choise" src="icons/sword.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-8">
+					<img class="button-choise" src="icons/axe.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo III</h2>
+
+			</div>
+			<div class="row">
+				<em>Khal Drogo</em>
+				<p>
+					O sagaz Illyrio Mopatis, servindo como patrono do exilado Viserys Targaryen e de sua irmã, Daenerys, arranjou um casamento entre a princesa e Khal Drogo durante uma das visitas do Khal a Pentos. Em troca da noiva, Drogo deveria fornecer dez mil guerreiros dothraki a Viserys para que ele retomasse o Trono de Ferro. Ele tratava-a com respeito e valorizava as suas opiniões, apesar de não entender as objeções da esposa a alguns costumes dothraki. Para conseguir o ouro que financiaria a invasão, Drogo atacou algumas cidades em Lhazar com a intenção de conseguir escravos. Numa das cidades, ele enfrentou e derrotou seu rival, Khal Ogo, e também o seu filho, Khal Fogo. Mesmo vitorioso, Drogo recebeu um ferimento no peito. Preocupada com o ferimento, Daenerys convenceu Drogo a ficar sob os cuidado de Mirri Maz Duur. Desesperada para salvar a vida do marido, Daenerys convenceu Mirri Maz Duur a usar uma poderosa magia de sangue. Para se vingar pelo que Drogo e seus homens haviam feito em sua vila, a maegi executou o ritual, sacrificando o bebê de Daenerys e deixando Drogo num estado vegetativo. Percebendo que Drogo nunca voltaria ao seu estado anterior, Daenerys acabou com o seu sofrimento.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>Khal Drogo</h2>
+			<div class="row">
+				<div class="col-md-2 weapons" id="img-9">
+					<img class="button-choise" src="icons/bow-and-arrow.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-10">
+					<img class="button-choise" src="icons/witch.png" alt="a">
+				</div>
+
+
+				<div class="col-md-4 drogo">
+					<img class="center-block droppable" id="man-alter3" src="personagens/Khal_Drogo.png" alt="a">
+				</div>
+
+
+				<div class="col-md-2 weapons" id="img-11">
+					<img class="button-choise" src="icons/sword.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-12">
+					<img class="button-choise" src="icons/pillow.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo IV</h2>
+
+			</div>
+			<div class="row">
+				<em>The Red Wedding</em>
+				<p>
+					O "Red Wedding" é o massacre que ocorreu no banquete do casamento entre Edmure Tully, Senhor de Riverrun, e Roslin Frey durante a guerra dos 5 Reis. O Rei no Norte, Robb Stark, a sua esposa, Rainha Talisa, a sua mãe Catelyn Stark, e grande parte das suas tropas são assassinadas. O evento é orquestrado pelo seu anfitrião, Walder Frey, como vingança por Robb ter quebrado um pacto de casamento com a casa Frey, e o conspirador de Frey, Roose Bolton.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>The Red Wedding</h2>
+			<div class="red row">
+
+				<div class="col-md-1">
+					<div class=" weapons" id="img-13">
+						<img class=" button-choise" src="icons/crossbow.png" alt="a">
+					</div>
+					<div class="weapons" id="img-15">
+						<img class="button-choise" src="icons/knife.png" alt="a">
+					</div>
+				</div>
+
+				<div class="col-md-1">
+					<div class="weapons" id="img-14">
+						<img class="button-choise" src="icons/axe.png" alt="a">
+					</div>
+					<div class="weapons" id="img-16">
+						<img class="button-choise" src="icons/knife.png" alt="a">
+					</div>
+				</div>
+
+				<div class="catelyn col-md-3">
+					<img class="center-block droppable" id="man-alter4" src="personagens/Catelyn.png" alt="a">
+				</div>
+
+				<div class="rob col-md-2">
+					<img class="center-block droppable" id="man-alter5" src="personagens/robb.png" alt="a">
+				</div>
+
+				<div class="talisa col-md-3">
+					<img class="center-block droppable" id="man-alter6" src="personagens/Talysa.png" alt="a">
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo V</h2>
+
+			</div>
+			<div class="row">
+				<em>Joffrey Baratheon</em>
+				<p>
+					Joffrey Baratheon é o filho mais velho e herdeiro do Rei Robert I e da Rainha Cersei Lannister. Seu verdadeiro pai, porém, é Jaime Lannister, irmão da Rainha.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>Joffrey Baratheon</h2>
+			<div class="row">
+				<div class="col-md-2 weapons" id="img-17">
+					<img class="button-choise" src="icons/sword.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-18">
+					<img class="button-choise" src="icons/poison-bottle.png" alt="a">
+				</div>
+
+
+				<div class="col-md-4 joffrey">
+					<img class="center-block droppable" id="man-alter7" src="personagens/joffrey.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-19">
+					<img class="button-choise" src="icons/crossbow.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-20">
+					<img class="button-choise" src="icons/hand.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo VI</h2>
+
+			</div>
+			<div class="row">
+				<em>Lysa Arryn</em>
+				<p>
+					Lysa foi a Senhora Regente do Vale, governando em nome de seu filho Robin Arryn. Ela amava seu filho e seguiu uma política de isolacionismo desde a morte de seu marido Jon Arryn. Na realidade, porém, Lysa é uma dos verdadeiros responsáveis da guerra, depois de ter conspirado com Petyr Baelish, quem ela é obsessivamente apaixonada por, para assassinar Jon e enquadrar os Lannister, a fim de provocar uma guerra entre a Casa Stark e Casa Lannister, que devastaria os Sete Reinos e levaria à morte de milhares de pessoas, entre elas sua própria irmã e seu sobrinho Robb Stark. Embora tecnicamente Lysa tenha traído sua própria família, ela é finalmente traída pelo próprio Petyr.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>Lysa Arryn</h2>
+			<div class="row">
+				<div class="col-md-2 weapons" id="img-21">
+					<img class="button-choise" src="icons/knife.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-22">
+					<img class="button-choise" src="icons/bow-and-arrow.png" alt="a">
+				</div>
+
+
+				<div class="col-md-4 lysa">
+					<img class="center-block droppable" id="man-alter8" src="personagens/lysa1.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-23">
+					<img class="button-choise" src="icons/dragon.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-24">
+					<img class="button-choise" src="icons/hands.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo VII</h2>
+
+			</div>
+			<div class="row">
+				<em>Oberyn Martell</em>
+				<p>
+					Príncipe Oberyn, conhecido como A Víbora Vermelha de Dorne (do inglês, The Red Viper of Dorne), é o irmão mais novo de Doran Martell, o Príncipe de Dorne, e da falecida Elia Martell, esposa de Rhaegar Targaryen, o também falecido Príncipe de Pedra do Dragão e herdeiro do Trono de Ferro. Viajou até Porto Real para assistir ao casamento real de Joffrey Baratheon e Margaery Tyrell no lugar de seu irmão, mas motivo real de Oberyn é buscar vingança pelo assassinato e estupro de sua irmã pelo guarda-costas de Tywin Lannister, Sor Gregor Clegane, conhecido com "A Montanha". Oberyn tem a oportunidade de matar Clegane quando ele se voluntaria para ser o campeão por Tyrion Lannister em um julgamento por combate; embora ele consiga gravemente ferir, subjugar e envenenar Clegane, ele é finalmente morto brutalmente por Gregor.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>Oberyn Martell</h2>
+			<div class="row">
+				<div class="col-md-2 weapons" id="img-25">
+					<img class="button-choise" src="icons/hand.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-26">
+					<img class="button-choise" src="icons/spear.png" alt="a">
+				</div>
+
+				<div class="col-md-4 oberyn">
+					<img class="center-block droppable" id="man-alter9" src="personagens/Oberyn.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-27">
+					<img class="button-choise" src="icons/axe.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-28">
+					<img class="button-choise" src="icons/sword.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo VIII</h2>
+
+			</div>
+			<div class="row">
+				<em>Tywin Lannister</em>
+				<p>
+					Príncipe Oberyn, conhecido como A Víbora Vermelha de Dorne (do inglês, The Red Viper of Dorne), é o irmão mais novo de Doran Martell, o Príncipe de Dorne, e da falecida Elia Martell, esposa de Rhaegar Targaryen, o também falecido Príncipe de Pedra do Dragão e herdeiro do Trono de Ferro. Viajou até Porto Real para assistir ao casamento real de Joffrey Baratheon e Margaery Tyrell no lugar de seu irmão, mas motivo real de Oberyn é buscar vingança pelo assassinato e estupro de sua irmã pelo guarda-costas de Tywin Lannister, Sor Gregor Clegane, conhecido com "A Montanha". Oberyn tem a oportunidade de matar Clegane quando ele se voluntaria para ser o campeão por Tyrion Lannister em um julgamento por combate; embora ele consiga gravemente ferir, subjugar e envenenar Clegane, ele é finalmente morto brutalmente por Gregor.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>Tywin Lannister</h2>
+			<div class="row">
+				<div class="col-md-2 weapons" id="img-29">
+					<img class="button-choise" src="icons/knife.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-30">
+					<img class="button-choise" src="icons/crossbow.png" alt="a">
+				</div>
+				<div class="col-md-4 tywin">
+					<img class="center-block droppable" id="man-alter10" src="personagens/Tywin.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-31">
+					<img class="button-choise" src="icons/poison-bottle.png" alt="a">
+				</div>
+
+				<div class="col-md-2 weapons" id="img-32">
+					<img class="button-choise" src="icons/axe.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="mySlides container">
+			<div class="row">
+				<h2>Capítulo IX</h2>
+
+			</div>
+			<div class="row">
+				<em>Jon Snow</em>
+				<p>
+					Quando Eddard Stark voltou para casa após a Rebelião de Robert, ele apresentou Jon como seu filho bastardo, nunca dizendo a ninguém, nem mesmo a Jon, quem era sua mãe. Eddard tomou a incomum decisão de criar Jon em seu castelo em Winterfell junto de seus filhos legítimos - causando tensão com sua esposa Catelyn Tully. Quando Lorde Eddard Stark parte para Porto Real, Jon se vê obrigado a se juntar à Patrulha da Noite, n'a muralha ele faz bons amigos e alguns inimigos, comanda a missão de vingar Jeor Mormont e a defesa na batalha contra os selvagens, ele é eleito Lorde Comandante realizando feitos como liberar a passagem dos Selvagens pela muralha e ter um bom contato com eles, feito que ocasiona a sua morte por traidores, após isso ele é ressuscitado por Melissandre e perde o gosto pela Patrulha.
+				</p>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<h2>Jon Snow</h2>
+			<div class="row">
+				<div class="col-md-2 weapons" id="img-33">
+					<img class="button-choise" src="icons/axe.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-34">
+					<img class="button-choise" src="icons/knife.png" alt="a">
+				</div>
+
+				<div class="col-md-4 jon">
+					<img class="center-block droppable" id="man-alter11" src="personagens/John%20Snow.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-35">
+					<img class="button-choise" src="icons/gallows.png" alt="a">
+				</div>
+				<div class="col-md-2 weapons" id="img-36">
+					<img class="button-choise" src="icons/bow-and-arrow.png" alt="a">
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-11"></div>
+				<div class="col-md-1 vidas">
+					<div class="viidas">
+						<img id="img-responsive coracao1" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao2 img-responsive" src="coracao.png" alt="a">
+					</div>
+					<div class="viidas">
+						<img id="coracao3 img-responsive" src="coracao.png" alt="a">
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="mySlides container">
+			<img class="winner center-block img-responsive" src="win.png" alt="a">
+
+			<div class="row">
+
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<img src="personagens/tyrion.png" alt="a" class="tyrion img-responsive center-block">
+				</div>
+
+				<div class="col-md-3">
+					<div class="talkbubble2">
+						<p>Parabéns! O trono é teu! Joga mais uma vez!<br> <a href="index2.html"> <img class="restart" src="restart%20(1).png" alt="a"> </a></p></div>
+				</div>
+
+			</div>
+		</div>
+		
+		
+		<div class="mySlides container">
+			<img class="winner center-block img-responsive" src="lost.png" alt="a">
+
+			<div class="row">
+
+				<div class="col-md-3"></div>
+				<div class="col-md-6">
+					<img src="personagens/tyrion.png" alt="a" class="tyrion img-responsive center-block">
+				</div>
+
+				<div class="col-md-3">
+					<div class="talkbubble">
+						<p>Perdeste! Tenta de novo!<br> <a href="index2.html"> <img class="restart" src="restart%20(1).png" alt="a"> </a></br></p>
+						
+					</div>
+					
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+	</div>
+
+		
+
+	<div class="menu" onclick="myFunction()">
+		<div class="bar1"></div>
+		<div class="bar2"></div>
+		<div class="bar3"></div>
+
+		<span class="menutext" id="myMenu">
+                <p>Volume do jogo:</p>
+                <audio autoplay="autoplay" controls>
+                <source src="light.mp3" type="audio/mpeg">
+                </audio>
+
+            </span>
+
+	</div>
+
+
+
+	<br>
+
+
+
+
+
+	<script src="index2.js"></script>
+
+	
+		<div class="row" id="special-menu">
+			<div class="dots">
+
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
+				<span class="dot" onclick="currentSlide(4)"></span>
+				<span class="dot" onclick="currentSlide(5)"></span>
+				<span class="dot" onclick="currentSlide(6)"></span>
+				<span class="dot" onclick="currentSlide(7)"></span>
+				<span class="dot" onclick="currentSlide(8)"></span>
+				<span class="dot" onclick="currentSlide(9)"></span>
+				<span class="dot" onclick="currentSlide(10)"></span>
+				<span class="dot" onclick="currentSlide(11)"></span>
+				<span class="dot" onclick="currentSlide(12)"></span>
+				<span class="dot" onclick="currentSlide(13)"></span>
+				<span class="dot" onclick="currentSlide(14)"></span>
+				<span class="dot" onclick="currentSlide(15)"></span>
+				<span class="dot" onclick="currentSlide(16)"></span>
+				<span class="dot" onclick="currentSlide(17)"></span>
+				<span class="dot" onclick="currentSlide(18)"></span>
+				<span class="dot" onclick="currentSlide(19)"></span>
+				<span class="dot" onclick="currentSlide(20)"></span>
+			</div>
+		</div>
+
+	<script src="index2.js"></script>
+</body>
+
+</html>

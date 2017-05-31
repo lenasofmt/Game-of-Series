@@ -1,0 +1,514 @@
+/* Slideshow container */
+
+.slideshow-container {
+	max-width: 100vw;
+	min-width: 700px;
+	position: relative;
+	margin: auto;
+  
+}
+
+
+/* Next & previous buttons */
+
+.prev,
+.next {
+	cursor: pointer;
+	position: absolute;
+	width: auto;
+	padding: 6px;
+	color: white;
+	font-weight: bold;
+	font-size: 66px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+	margin-top: 50vh;
+	z-index: 100;
+}
+
+.arrows{
+	margin: auto;
+}
+
+
+/* Caption text */
+
+.text {
+	color: #f2f2f2;
+	font-size: 15px;
+	padding: 8px 12px;
+	position: absolute;
+	bottom: 8px;
+	width: 100%;
+	text-align: center;
+}
+
+
+/* Number text (1/3 etc) */
+
+.numbertext {
+	color: #f2f2f2;
+	font-size: 12px;
+	padding: 8px 12px;
+	position: absolute;
+	top: 0;
+}
+
+
+/* The dots/bullets/indicators */
+
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: auto;
+	background-color: white;
+	border-radius: 50%;
+	display: inline-block;
+	position: relative;
+	transition: background-color 0.6s ease;
+	z-index: 99;
+}
+
+.active,
+.dot:hover {
+	background-color: #717171;
+	z-index: 99;
+}
+
+.weapons img {
+	z-index: 100;
+	width: 5vw;
+	margin-top: 17vh;
+	border-color: black;
+
+	padding: 0.4vw;
+	background-color: white;
+	border-radius: 25px;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+/* Fading animation */
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+
+/* On smaller screens, decrease text size */
+
+@media only screen and (max-width: 300px) {
+	.prev,
+	.next,
+	.text {
+		font-size: 11px
+	}
+}
+
+html {
+	overflow-x: hidden;
+    overflow-y: hidden;
+	width: 100%;
+	height: 100%;
+}
+
+.viserys img {
+	width: 13vw;
+}
+#man-alter1{
+    width: 13vw;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	margin-top: 1vh;
+}
+
+.dots {
+	z-index: 99;
+	text-align: center;
+    position: static;
+margin-top: 4vh;
+	margin-left: auto;
+	margin-right: auto;
+	bottom: 0px;
+	height: 20%;
+}
+
+.logo img {
+	width: 60vw;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 6vh;
+}
+
+h3 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+	color: #70393F;
+	margin-top: 10vh;
+	text-align: left;
+}
+
+p {
+	font-family: 'Oswald', sans-serif;
+	font-size: 2em;
+}
+
+body {
+	background-color: #36455a;
+	color: white;
+	height: 100%;
+}
+
+
+.ned img {
+	width: 19vw;
+	margin-left: -2.5vw;
+}
+
+.container {
+	max-width: 100vw;
+	margin: auto;
+    margin-top: 5%;
+}
+
+.drogo img {
+	width: 18vw;
+}
+
+em {
+	margin-top: 3vh;
+	font-size: 1.5em;
+	font-family: 'Roboto Condensed', sans-serif;
+	color: #afd4d4;
+	text-align: center;
+}
+
+.viidas{
+    display: inline-block;
+	width: 4vw;
+	vertical-align: middle;
+
+}
+
+.red{
+	width: 90vw;
+	text-align: center;
+	margin-left: -20%;
+	
+}
+
+.viidas img{
+    display: block;
+
+    
+}
+
+h2 {
+	text-align: left;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: 1px;
+	font-size: 3em;
+	margin: auto;
+	margin-bottom: 1vh;
+}
+
+.catelyn img {
+	width: 13vw
+}
+
+.rob img {
+	width: 12.8vw
+}
+
+#img-15{
+    width: 10%;
+    margin-left: 12%;
+}
+
+#img-16{
+    width: 10%;
+    left: 2%;
+}
+
+.talisa img {
+	width: 11.2vw;
+}
+
+.joffrey img {
+	margin: auto;
+	width: 12vw;
+}
+
+.lysa img {
+	width: 13vw;
+}
+
+.tywin img {
+	width: 13vw;
+}
+
+.vidas {
+    position: absolute;
+    right: 10%;
+    top: 30%;
+    text-align: center;
+}
+
+.vidas img {
+    width: 90%;
+    position: relative;
+    margin: 10%;
+}
+
+.menu {
+    position: absolute;
+    display: inline-block;
+    cursor: pointer;
+    left: 13%;
+    top:10vh;
+    z-index: 100;
+}
+
+.menu .menutext {
+    visibility: hidden;
+    width: 400px;
+    background-color: #585757;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 8px;
+    position: absolute;
+    z-index: 1;
+    top:5vh;
+    margin-left: -8.5vw;
+}
+
+.menu .menutext::after {
+    content: "";
+    position: absolute;
+    top: -7%;
+    left: 50%;
+    transform: rotate(180deg);
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+    z-index: 100;
+}
+
+
+/* Toggle this class when clicking on the popup container (hide and show the popup) */
+
+.menu .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+
+/* Add animation (fade in the popup) */
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.jon img{
+	width: 15vw;
+}
+
+.orn1{
+	width: 16vw;
+    position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+.orn2{
+	width: 16vw;
+    position: absolute;
+	top:0;
+	left:0;
+	transform: rotate(180deg);
+	z-index: 0;
+	
+}
+
+.talkbubble p{
+	color: black;
+
+}
+
+.orn3{
+	width: 16vw;
+    position: absolute;
+	bottom: 0;
+	left: 0;
+	 -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+.orn4{
+	width: 16vw;
+    position: absolute;
+	top: 0;
+	right: 0;
+	-moz-transform: scaleY(-1);
+    -o-transform: scaleY(-1);
+    -webkit-transform: scaleY(-1);
+    transform: scaleY(-1);
+    filter: FlipV;
+    -ms-filter: "FlipV";
+
+}
+
+.tyrion{
+	margin-top: 6vh;
+	width: 10vw;
+
+}
+
+.talkbubble {
+  position: relative;
+  width: 320px;
+  height: 13vh;
+  border-radius: 5px;
+  border: solid white;
+  background: white;
+	top: 3vh;
+  left: -8vw; 
+	line-height: 4vh;
+}
+
+.talkbubble img{
+	width: 2vw;
+}
+
+.talkbubble:before {
+  content:"";
+  position: absolute;
+  right: 100%;
+  top: 26px;
+  width: 0;
+  height: 0;
+  
+  border-top: 13px solid transparent;
+  border-right: 26px solid white;
+  border-bottom: 13px solid transparent;
+}
+
+.talkbubble p {
+  position: inherit;
+  width: inherit;
+  height: inherit;
+
+  font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+  margin: auto;
+	margin-top: 2vh;
+  vertical-align: bottom;
+  border: none;
+  resize: none;
+}
+
+.talkbubble2 {
+  position: relative;
+  width: 320px;
+  height: 16vh;
+  border-radius: 5px;
+  border: solid white;
+  background: white;
+	top: 3vh;
+  left: -8vw; 
+	line-height: 4vh;
+}
+
+.talkbubble2 img{
+	width: 2vw;
+}
+
+.talkbubble2 p {
+  position: inherit;
+  width: inherit;
+  height: inherit;
+
+  font-family: 'Oswald', sans-serif;
+	font-size: 1.5em;
+	text-align: center;
+  margin: auto;
+	margin-top: 2vh;
+  vertical-align: bottom;
+  border: none;
+  resize: none;
+	color: black;
+}
+
+#man-alter9{
+	position:static;
+	max-width: 13vw;
+}
+
+#man-alter3{
+	position: static;
+	width: 18vw;
+
+}
+
+.gif-1{
+	position: static;
+	margin-top: -20vh;
+}
